@@ -1,6 +1,6 @@
 {
   "name": "wx-parser-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "use cli to parse dom",
   "perferGlobal": true,
   "bin": {
@@ -12,7 +12,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luwenxull/wx-parser-cli.git"
+  },
   "dependencies": {
+    "commander": "^2.9.0",
     "wx-parser": "^1.0.2"
   }
 }
